@@ -1,0 +1,25 @@
+2023-12-27 14:50:08.992  INFO 2988 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on DESKTOP-NVOCNBS with PID 2988 (C:\Users\User\IdeaProjects\nd035-c4-Security-and-DevOps\starter_code\target\classes started by User in C:\Users\User\IdeaProjects\nd035-c4-Security-and-DevOps)
+2023-12-27 14:50:08.994  INFO 2988 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2023-12-27 14:50:09.283  INFO 2988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-27 14:50:09.317  INFO 2988 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 4 JPA repository interfaces.
+2023-12-27 14:50:09.817  INFO 2988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2023-12-27 14:50:09.824  INFO 2988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-27 14:50:09.824  INFO 2988 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-12-27 14:50:09.874  INFO 2988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-27 14:50:09.874  INFO 2988 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 842 ms
+2023-12-27 14:50:10.011  INFO 2988 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27 14:50:10.037  INFO 2988 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-12-27 14:50:10.104  INFO 2988 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-12-27 14:50:10.154  INFO 2988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-27 14:50:10.237  INFO 2988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-27 14:50:10.252  INFO 2988 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-27 14:50:10.692  INFO 2988 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-27 14:50:10.699  INFO 2988 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-27 14:50:11.032  WARN 2988 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-27 14:50:11.344  INFO 2988 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@346330b6, org.springframework.security.web.context.SecurityContextPersistenceFilter@10830d50, org.springframework.security.web.header.HeaderWriterFilter@2314cd97, org.springframework.web.filter.CorsFilter@71e2843b, org.springframework.security.web.authentication.logout.LogoutFilter@247dcbba, com.example.demo.security.JWTAuthenticationFilter@20d3fff4, com.example.demo.security.JWTAuthenticationVerificationFilter@52325940, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ea8ff31, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@612bb755, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7f792530, org.springframework.security.web.session.SessionManagementFilter@64e89bb2, org.springframework.security.web.access.ExceptionTranslationFilter@2212e291, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69a3bf40]
+2023-12-27 14:50:11.381  INFO 2988 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 14:50:11.517  INFO 2988 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2023-12-27 14:50:11.525  INFO 2988 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 2.769 seconds (JVM running for 2.99)
+2023-12-27 14:53:41.694  INFO 2988 --- [http-nio-8082-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 14:53:41.838  INFO 2988 --- [http-nio-8082-exec-3] c.e.demo.controllers.UserController      : created user ahmed
+2023-12-27 15:03:36.196  INFO 2988 --- [http-nio-8082-exec-1] c.e.demo.controllers.OrderController     : order created for user ahmed
